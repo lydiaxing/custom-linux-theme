@@ -21,7 +21,7 @@ stage {
 }
 
 StScrollBar {
-    padding: 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 StScrollView.vfade {
@@ -40,19 +40,19 @@ StScrollBar StBin#trough {
 }
 
 StScrollBar StButton#vhandle {
-    background-color: rgb(30, 148, 226);
+    background-color: rgb(117, 161, 214);
     border: 0px solid #555555;
     border-radius: 2px;
 }
 
 StScrollBar StButton#hhandle {
-    background-color: rgb(82, 148, 226);
+    background-color: rgb(117, 161, 214);
     border: 0px solid #555555;
     border-radius: 2px;
 }
 
 StScrollBar StButton#hhandle:hover, StScrollBar StButton#vhandle:hover {
-    background-color: #5a65bd;
+    background-color: rgb(82, 148, 226);
 }
 
 .separator {
@@ -1251,7 +1251,7 @@ menu-background allows the menu applet to be themed separately from other applet
 
 .menu-favorites-button:hover {
     color: white;
-    border-radius: 1px;
+    border-radius: 0px;
     border: 0px rgb(82, 148, 226);
     border-left: 2px;
 }
@@ -2010,7 +2010,7 @@ menu-background allows the menu applet to be themed separately from other applet
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
-    color: #ccc;
+    color: rgb(235, 231, 231);
 }
 
 .applet-box:hover .applet-label, .applet-box:hover .applet-label {

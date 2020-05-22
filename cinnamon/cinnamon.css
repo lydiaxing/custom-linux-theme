@@ -1387,8 +1387,8 @@ menu-background allows the menu applet to be themed separately from other applet
 }
 
 #menu-search-entry:focus, #menu-search-entry:hover {
-    background-color: rgb(82, 148, 226);
-    border-radius: 15px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0px; 
 }
 
 #menu-search-entry:hover {
@@ -1403,7 +1403,7 @@ menu-background allows the menu applet to be themed separately from other applet
 
 .menu-search-entry-icon {
     icon-size: 1.2em;
-    color: #fbfbfb;
+    color: rgba(50, 50, 50, 1);
 }
 
 /* Context menu (at the moment only for favorites) */

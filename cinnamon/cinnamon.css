@@ -297,7 +297,7 @@ StScrollBar StButton#hhandle:hover, StScrollBar StButton#vhandle:hover {
 
 #panel {
     color: #ffffff;
-    background-color: rgba(24,24,24,0.3);
+    background-color: rgba(24,24,24,0.7);
     box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.75);
     font-size: 8pt;
     font-weight: normal;
@@ -647,6 +647,7 @@ StScrollBar StButton#hhandle:hover, StScrollBar StButton#vhandle:hover {
     padding: .4em 1.75em;
     spacing-rows: 0px;
     spacing-columns: 0px;
+    /* font-weight: bold; */
 }
 
 .calendar-month-label {
@@ -1280,11 +1281,15 @@ menu-background allows the menu applet to be themed separately from other applet
 .menu-application-button {
     color: #ccc;
     padding: 7px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .menu-application-button:highlighted {
 /* This style is used in menu application buttons for applications which were newly installed */
     font-weight: bold;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .menu-application-button-selected {
@@ -1295,11 +1300,15 @@ menu-background allows the menu applet to be themed separately from other applet
     color: white;
  background-color: rgba(255, 255, 255, 0.3) !important;
  border-radius: 2px; 
+ font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .menu-application-button-selected:highlighted {
 /* This style is used in menu application buttons for applications which were newly installed */
     font-weight: bold;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .menu-application-button-label:ltr {
@@ -1315,6 +1324,8 @@ menu-background allows the menu applet to be themed separately from other applet
     padding: 7px;
     border: 0px solid rgba(0, 0, 0, 0);
     border-left: 3px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .menu-category-button-greyed {
@@ -1322,6 +1333,8 @@ menu-background allows the menu applet to be themed separately from other applet
     color: #fbfbfb;
     border: 0px solid rgba(0, 0, 0, 0);
     border-left: 3px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .menu-category-button-selected {
@@ -1329,6 +1342,8 @@ menu-background allows the menu applet to be themed separately from other applet
     color: white;
     border: 0px solid rgb(82, 148, 226);
     border-left: 3px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .menu-category-button-label:ltr {
@@ -1342,6 +1357,8 @@ menu-background allows the menu applet to be themed separately from other applet
 .menu-category-button-button:hover {
     background-color: #969696;
     border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Name and description of the currently hovered item in the menu
@@ -1359,10 +1376,12 @@ menu-background allows the menu applet to be themed separately from other applet
 }
 
 .menu-selected-app-title {
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
 
 .menu-selected-app-description {
+    font-family: 'Courier New', Courier, monospace;
     max-width: 150px;
 }
 
@@ -1375,10 +1394,10 @@ menu-background allows the menu applet to be themed separately from other applet
 }
 
 #menu-search-entry {
-    padding: 4px 12px;
+    padding: 10px 12px;
     color: rgb(255, 255, 255);
     background-color: rgba(20,20,20,1);
-    border-radius: 0px; 
+    border-radius: 1px; 
     selected-color: black;
     caret-color: rgb(128, 128, 128);
     caret-size: 1px;
@@ -1388,7 +1407,7 @@ menu-background allows the menu applet to be themed separately from other applet
 
 #menu-search-entry:focus, #menu-search-entry:hover {
     background-color: rgba(255,255,255,0.5);
-    border-radius: 0px; 
+    border-radius: 1px; 
 }
 
 #menu-search-entry:hover {
@@ -1396,7 +1415,8 @@ menu-background allows the menu applet to be themed separately from other applet
 }
 
 #menu-search-entry:focus {
-    font-size: 12px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
     color: #fbfbfb;
     transition-duration: 300;
 }
@@ -2009,7 +2029,7 @@ menu-background allows the menu applet to be themed separately from other applet
     /* font-variant: small-caps; */
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: normal;
+    font-weight: bold;
     color: rgb(235, 231, 231);
 }
 
